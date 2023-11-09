@@ -9,7 +9,7 @@ const Episode = (props) => {
 
   return (
     <div className="episode" key={id}>
-      <img className="episode-image" src={imgsrc} alt={imgsrc} />
+      <img className="episode-image" src={imgsrc} alt='./stranger_things.png' />
       <div className="episode-info">
         <p className="episode-number">Season {season}, Episode {number}</p>
         <h3>{name}</h3>
